@@ -1,11 +1,8 @@
-import cart from './assets/cart.png'
+import React from 'react'
 
 const CartWidget = () => {
     return (
-        <div>
-            <img src={cart} alt="cart-widget" className="col-lg-1 text-center"/>
-            
-        </div> 
+        <i className="bi bi-cart"></i> 
     )
 }
 
